@@ -12,4 +12,4 @@ function SaveIt() {
     let textInput=$("#text" + hour).val();
     localStorage.setItem('content' + hour, textInput);
 }
-$("#text"+hour).textContent=localStorage.getItem('content');
+$("#text9").textContent=localStorage.getItem('content9');
